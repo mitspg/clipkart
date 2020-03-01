@@ -1,0 +1,115 @@
+<html>
+<head>
+	<title>
+		
+	</title>
+	<style>
+		
+		.border{
+			border: 2px solid black;
+			padding: 15px;
+			margin-left: 35%;
+			margin-right: 35%;
+			margin-top: 3%;
+			
+		}
+		.header{
+			margin-top: -0.50%;
+			background-color: royalblue;
+		}
+
+		
+        .image{
+			width: 3%;
+			margin-left: 2%;
+            
+		}
+
+		.img-container
+		{
+			text-align: center;
+		}
+		
+		form
+        {
+			     margin-top: 4%;
+			     margin-left: 20%;
+			     text-align: left;
+		}
+        
+		li 
+        {
+                list-style-type: none;
+        }
+        
+        .button
+        {
+            width:150px;
+            margin-left: 12%;
+                        
+        }
+        
+        .signin
+        {
+            margin-left: 2%;
+            
+        }
+        
+        .footer
+        {
+            width: 100%;
+            background-color: black;
+            margin-bottom: 10px;
+        }
+        
+		</style>
+		
+</head>
+<body>
+
+							
+			<div class="header">
+				<a href="http://www.google.com"><img class="image" src="../Downloads/odc-sample-69795-8449.png"></a>
+				
+            </div>
+			
+                <div class="img-container">
+					<img src="../Downloads/odc-sample-69795-8449.png">
+                </div>		
+	
+    
+    
+    <div class="border">
+
+	
+	<form style="border: 2px black">
+			
+            <h1>Create Account</h1>
+            
+            <li><label for="urname"><b>Your Name</b></label></li>
+			<li><input type="text" name="urname" size="30"></li><br>	
+
+            <li><label for="phone"><b>Mobile number</b></label></li>
+			<li><input type="tel" name="phone" id="phone" placeholder="Mobile number" size="30" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></li><br>
+		
+            <li><label for="email"><b>E-mail (optional)</b></label></li>
+			<li><input type="email" name="email" id="email" size="30"></li><br>
+		  
+            <li><label for="pwd"><b>Password</b></label></li>
+			<li><input type="password" name="pwd" id="pwd" placeholder="At least 6 character" size="30"></li>
+		    <small>Passwords must be 6 characters.</small>
+        <p>We will send you a text to verify your phone.<br>Message and Data rates may apply.</p>
+			<br><li><input class="button" type="submit" value="Submit"></li>
+	<br><br>
+		<div class="signin">
+    <p>Already have an account <a href="http://www.google.com"> Sign in></a>.</p>
+        </div>
+
+	</form><br>
+    </div>        
+        <div class="footer">
+            <p>footer</p>
+        </div>
+    
+</body>
+</html>
